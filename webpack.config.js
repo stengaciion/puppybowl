@@ -5,7 +5,7 @@ module.exports = {
   entry: './client/index.js',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: path.resolve(__dirname, 'public'),
+    static: path.resolve(__dirname, 'public'),
     port: 8000
   },
   output: {
